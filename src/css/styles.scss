@@ -1,6 +1,17 @@
+/* Global */
+
 body {
     background-color: #f5f5f5 !important;
 }
+
+body, html {
+    height: 100%;
+}
+
+/* Global */
+
+
+/* Navbar */
 
 .navbar {
     background-color: #0C1D77;
@@ -35,6 +46,15 @@ body {
     color: white;
 }
 
+.navbar {
+    box-shadow: 0 6px 0 rgba(255, 255, 255, 0.4);
+}
+
+.navlogo {
+    width: 400px;
+    height: 60px;
+}
+
 .dropdown-menu a {
     color: #0C1D77;
     white-space: nowrap !important;
@@ -44,6 +64,10 @@ body {
     color: white;
     background-color: #0C1D77;
 }
+
+/* Navbar */
+
+/* Utility Classes */
 
 .container {
     font-family: "Poppins", sans-serif;
@@ -57,34 +81,52 @@ body {
 }
 
 hr {
-    height: 4px !important; // Increase the height of the HR
-    background-color: #0C1D77 !important; // Change the color of the HR
+    height: 4px !important;
+    background-color: #0C1D77 !important;
     opacity: 1 !important;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
 }
 
 .split-img {
     width: 100vw;
-    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Position relative to the container */
+    left: 50%; /* Move image 50% from the left edge of the container */
+    transform: translateX(-50%); /* Translate back by 50% of its own width */
 }
 
-body, html {
-    height: 100%;
-}
-.ut1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
+.align-items-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.ut2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
+.mobiletext {
+    display: none;
+}
+
+h5 {
+    font-weight: 800;
+    font-size: 80px;
+}
+
+/* Utility Classes */
 
 /* The hero image */
+
 .headerbg {
     background-image: url("../img/headerbg.png");
     height: 450px;
@@ -96,7 +138,7 @@ body, html {
 .headerbg a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -109,12 +151,9 @@ body, html {
     opacity: 0.8;
 }
 
-/* Place text in the middle of the image */
-
-
 .headerpic {
     border-radius: 10px;
-    height: 10vh;
+    height: 71px;
     width: auto;
     margin-right: 10px;
 }
@@ -124,8 +163,13 @@ body, html {
     margin-left: 15px;
 }
 
+/* The hero image */
+
+
+/* Section */
+
 .overskrift1 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -145,28 +189,6 @@ body, html {
     font-style: normal
 }
 
-.navbar {
-    box-shadow: 0 6px 0 rgba(255, 255, 255, 0.4);
-  }
-
-.kontakt {
-    background-color: #0C1D77;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.kontakt label {
-    color: white;
-    margin-bottom: 15px;
-}
-
-.kontakt h3 {
-    color: white;
-    font-weight: 700;
-}
-
 .btn {
     background-color: #0C1D77;
     color: white;
@@ -182,10 +204,20 @@ body, html {
     margin-right: 20px;
 }
 
-.navlogo {
-    width: 400px;
-    height: 60px;
+.sectionimg {
+    border-radius: 30px;
 }
+
+.watermark-container {
+    background-image: url('../img/logo+pumpe.png');
+    background-repeat: no-repeat;;
+    background-size: 10%;
+    background-position: 95% 100%; /* Center the watermark */
+    background-attachment: local; /* Scroll with content */
+    pointer-events: none;
+}
+
+/* Section */
 
 .footer {
     color: white;
@@ -194,45 +226,47 @@ body, html {
     font-weight: 600;
 }
 
-h5 {
+.footer-text {
+    margin-bottom: 0px;
+}
+
+.kontakt {
+    background-color: #0C1D77;
+}
+
+.kontakttext {
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.kontaktoverskrift {
+    color: white;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
-    font-size: 80px;
 }
 
-.watermark {
-    position: absolute;
-    height: 40vh;
-    width: auto;
-    bottom: -25%;
-    right: 208%;
-    z-index: -1;
-    opacity: 0.1;
+input, textarea {
+    border-radius: 5px;
+    padding: 5px;
+    border-style: none;
 }
 
-.vandmærke {
-    opacity: 0.1;
-    max-width: 70%;
+.kontakt label {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.align-items-end {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-.sectionimg {
-    border-radius: 30px;
-    max-height: 80%;
-}
-
-.align-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.mobiletext {
+.mobilebutton {
     display: none;
 }
 
@@ -246,7 +280,6 @@ h5 {
     .breadtext {
         font-size: 14px;
     }
-
 }
 
 @media only screen and (max-width: 1080px) {
@@ -256,6 +289,9 @@ h5 {
 
 @media only screen and (max-width: 991px) {
     /* big tablets */
+    .split-img {
+        width: 120vw;
+    }
     .headerbg a {
         font-size: 16px;
         margin-left: 20px;
@@ -267,7 +303,7 @@ h5 {
     }
 
     .headerpic {
-        height: 9vh;
+        height: 64px;
     }
 
     .kontakt {
@@ -290,9 +326,15 @@ h5 {
     h5 {
         font-size: 60px;
     }
+    .sectionimg {
+        border-radius: 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .split-img {
+        width: 130vw;
+    }
     /* small tablets */
     .headerbg a {
         font-size: 12px;
@@ -305,7 +347,7 @@ h5 {
     }
 
     .headerpic {
-        height: 8.5vh;
+        height: 60px;
     }
 
     .kontakt {
@@ -328,9 +370,21 @@ h5 {
     h5 {
         font-size: 60px;
     }
+    .watermark-container {
+        background-size: 15%;
+    }
+    .mobilebutton {
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 540px) {
+    .split-img {
+        width: 150vw;
+    }
+    .watermark-container {
+        background-size: 20%;
+    }
     .headerpic {
         margin-right: 0px;
     }
@@ -352,6 +406,9 @@ h5 {
     .headerbg {
         height: 400px;
     }
+    .footer {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -366,7 +423,9 @@ h5 {
     .headerbg {
         height: 390px;
     }
-
+    .footer {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -374,5 +433,39 @@ h5 {
     .navlogo {
         width: 220px;
         height: 40px;
+    }
+    .footer {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 315px) {
+    /* phones */
+    .navlogo {
+        width: 180px;
+        height: 35px;
+    }
+    .footer {
+        font-size: 7px;
+    }
+    .headerbg a {
+        font-size: 9px;
+    }
+    .overskrift1 {
+        font-size: 18px;
+    }
+    .kraner {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .headerbg {
+        height: 370px;
+        margin-top: 66px;
+    }
+    .breadtext {
+        font-size: 12px;
+    }
+    .underskrift1 {
+        font-size: 12px;
     }
 }

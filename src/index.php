@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nielsen & Rønne</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,12 +108,16 @@
 </div>
 
 
-<div class="container">
-<hr class="mt-lg-5 mt-4">
-    <section id="kraner" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-4 me-4 mt-4">
+
+<div class="container watermark-container">
+    <hr class="mt-lg-5 mt-4">
+    <section id="kraner" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-xs-4 me-xs-4 ms-3 me-3 mt-4">
         <div class="row gx-lg-5 align-items-center">
-            <div class="col-lg-6 col-md-11 col-11">
+            <div class="col-lg-6 col-12">
                 <h1 class="overskrift1">Kraner</h1>
+                    <div class="d-block d-lg-none text-center">
+                        <img src="img/kran2.png" class="img-fluid sectionimg" alt="">
+                    </div>
                 <h5 class="underskrift1 mt-3 mb-3">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
                 <p class="breadtext">
                 Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
@@ -108,223 +131,184 @@
             <div class="col-lg-4 d-lg-block text-center d-none">
                 <img src="img/kran1.png" class="img-fluid sectionimg" alt="">
             </div>
-            <div class="col-lg-2 col-md-1 col-1 align-items-end">
-                <img src="img/logo+pumpe.png" class="vandmærke" alt="">
+        </div>
+    </section>
+</div>
+
+<div class="container watermark-container">
+    <hr class="mt-lg-5 mt-4">
+    <section id="elmotor" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-xs-4 me-xs-4 ms-3 me-3 mt-4">
+        <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 col-12">
+                <h1 class="overskrift1">Elmotorer, Generatorer</h1>
+                    <div class="d-block d-lg-none text-center">
+                        <img src="img/elmotorheader1.png" class="img-fluid sectionimg" alt="">
+                    </div>
+                <h5 class="underskrift1 mt-3 mb-3">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
+                <p class="breadtext">
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                </p>
+                <h5 class="underskrift1">Kontakt os gerne for et servicetilbud!</h5>
+            </div>
+            <div class="col-lg-4 d-lg-block text-center d-none">
+                <img src="img/elmotorheader.png" class="img-fluid sectionimg" alt="">
             </div>
         </div>
     </section>
 </div>
 
 <div class="container">
-<hr class="mt-lg-5 mt-4">
-    <section id="kraner" class="kraner ms-5 me-5 mt-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 col-md-11 col-11">
-                <h1 class="overskrift1">Kraner</h1>
+    <hr class="mt-lg-5 mt-4 mb-lg-5 mb-4">
+</div>
+
+<div class="wrapper">
+    <img src="img/kran.png" class="split-img" alt="Image Description">
+</div>
+
+<div class="container watermark-container">
+    <hr class="mt-lg-5 mt-4">
+    <section id="vindmoller" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-xs-4 me-xs-4 ms-3 me-3 mt-4">
+        <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 col-12">
+                <h1 class="overskrift1">Vindmøller</h1>
+                    <div class="d-block d-lg-none text-center">
+                        <img src="img/kran2.png" class="img-fluid sectionimg" alt="">
+                    </div>
                 <h5 class="underskrift1 mt-3 mb-3">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
-                <p>
+                <p class="breadtext">
                 Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
                 Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
                 Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
                 Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</p>
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                </p>
                 <h5 class="underskrift1">Kontakt os gerne for et servicetilbud!</h5>
             </div>
             <div class="col-lg-4 d-lg-block text-center d-none">
                 <img src="img/kran1.png" class="img-fluid sectionimg" alt="">
             </div>
-            <div class="col-lg-2 col-md-1 col-1 align-items-end">
-                <img src="img/logo+pumpe.png" class="vandmærke" alt="">
+        </div>
+    </section>
+</div>
+
+<div class="container watermark-container">
+    <hr class="mt-lg-5 mt-4">
+    <section id="lifte" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-xs-4 me-xs-4 ms-3 me-3 mt-4">
+        <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 col-12">
+                <h1 class="overskrift1">Lifte, Elevatorer</h1>
+                    <div class="d-block d-lg-none text-center">
+                        <img src="img/kran2.png" class="img-fluid sectionimg" alt="">
+                    </div>
+                <h5 class="underskrift1 mt-3 mb-3">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
+                <p class="breadtext">
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                </p>
+                <h5 class="underskrift1">Kontakt os gerne for et servicetilbud!</h5>
+            </div>
+            <div class="col-lg-4 d-lg-block text-center d-none">
+                <img src="img/kran1.png" class="img-fluid sectionimg" alt="">
+            </div>
+        </div>
+    </section>  
+</div>
+
+<div class="container">
+    <hr class="mt-lg-5 mt-4 mb-lg-5 mb-4">
+</div>
+
+<div class="wrapper">
+    <img src="img/elevator.png" class="split-img" alt="Image Description">
+</div>
+
+<div class="container watermark-container">
+    <hr class="mt-lg-5 mt-4">
+    <section id="pumper" class="kraner ms-lg-5 me-lg-5 mt-lg-5 ms-xs-4 me-xs-4 ms-3 me-3 mt-4">
+        <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-6 col-12">
+                <h1 class="overskrift1">Pumper</h1>
+                    <div class="d-block d-lg-none text-center">
+                        <img src="img/kran2.png" class="img-fluid sectionimg" alt="">
+                    </div>
+                <h5 class="underskrift1 mt-3 mb-3">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
+                <p class="breadtext">
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
+                </p>
+                <h5 class="underskrift1">Kontakt os gerne for et servicetilbud!</h5>
+            </div>
+            <div class="col-lg-4 d-lg-block text-center d-none">
+                <img src="img/kran1.png" class="img-fluid sectionimg" alt="">
             </div>
         </div>
     </section>
 </div>
 
-    <div class="container">
-        <hr>
-        <section id="kraner" class="kraner ms-5 mt-5 mb-5">
-            <h3 class="os1">Kraner</h3>
-            <h5 class="ut1">Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:</h5>
-                <p>
-                - Traverskraner
-                <br>
-                - Portalkraner
-                <br>
-                - Svingkraner
-                <br>
-                - Specialkraner
-                <br>
-                - Kædetaljer
-                <br>
-                - Wiretaljer
-                <br>
-                - Løftegrej
-                <br>
-                </p>
-                <h5 class="ut2">Kontakt os gerne for et servicetilbud!</h5>
-                <img src="img/logo+pumpe.png" alt="" class="watermark">
-        </section>
-        <hr>
-        <section id="elmotor" class="elmotor ms-5 mt-5 mb-5">
-            <h3>Elmotor, Generator</h3>
-            <p>Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-                <br>
-                - Traverskraner
-                <br>
-                - Portalkraner
-                <br>
-                - Svingkraner
-                <br>
-                - Specialkraner
-                <br>
-                - Kædetaljer
-                <br>
-                - Wiretaljer
-                <br>
-                - Løftegrej
-                <br>
-                Kontakt os gerne for et servicetilbud!</p>
-        </section>
-        <hr class="mt-5 mb-5">
-    </div>
-    
-    <img src="img/kran.png" class="split-img" alt="Image Description">
-
 <div class="container">
-    <hr class="mt-5 mb-5">
-        <section id="vindmoller" class="vindmoller ms-5 mt-5 mb-5">
-        
-            <h3>Vindmøller</h3>
-            <p>Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-                <br>
-                - Traverskraner
-                <br>
-                - Portalkraner
-                <br>
-                - Svingkraner
-                <br>
-                - Specialkraner
-                <br>
-                - Kædetaljer
-                <br>
-                - Wiretaljer
-                <br>
-                - Løftegrej
-                <br>
-                Kontakt os gerne for et servicetilbud!</p>
-        </section>
-        <hr>
-        <section id="lifte" class="lifte ms-5 mt-5 mb-5">
-            <h3>Lifte, Elevatorer</h3>
-            <p>Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-                <br>
-                - Traverskraner
-                <br>
-                - Portalkraner
-                <br>
-                - Svingkraner
-                <br>
-                - Specialkraner
-                <br>
-                - Kædetaljer
-                <br>
-                - Wiretaljer
-                <br>
-                - Løftegrej
-                <br>
-                Kontakt os gerne for et servicetilbud!</p>
-                
-        </section>
-        <hr class="mt-5 mb-5">
+    <hr class="mt-lg-5 mt-4 mb-lg-5 mb-4">
 </div>
 
+<?php if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $to = "christian544c@hotmail.com";
+    $subject = "New Message from Website";
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+    $headers = "From: $name <$email>";
 
-<img src="img/elevator.png" class="split-img" alt="Image Description">
+    if (mail($to, $subject, $message, $headers)) {
+        $success = true;
+    } else {
+        $success = false;
+    }
+} ?>
 
-<div class="container">
-            <hr class="mt-5 mb-5">
-            <section id="pumper" class="pumper ms-5 mt-5 mb-5">
-                <h3>Pumper</h3>
-                <p>Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-                    <br>
-                    - Traverskraner
-                    <br>
-                    - Portalkraner
-                    <br>
-                    - Svingkraner
-                    <br>
-                    - Specialkraner
-                    <br>
-                    - Kædetaljer
-                    <br>
-                    - Wiretaljer
-                    <br>
-                    - Løftegrej
-                    <br>
-                    Kontakt os gerne for et servicetilbud!</p>
-            </section>
-        <hr>
-    </div>
-</div>   
-        <?php if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $to = "christian@christian.com";
-            $subject = "New Message from Website";
-            $name = $_POST["name"];
-            $email = $_POST["email"];
-            $message = $_POST["message"];
-            $headers = "From: $name <$email>";
-
-            if (mail($to, $subject, $message, $headers)) {
-                $success = true;
-            } else {
-                $success = false;
-            }
-        } ?>
-
-<div class="kontakt">
+<section class="kontakt pt-5 pb-5" id="kontakt">
     <div class="container">
-    <section id="kontakt" class="ms-5 mt-5">
-        <!-- HTML form -->
-        <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
-            <div class="row">
-                <div class="col-6 mt-4 column-gap">
-                <h3 class="mt-5 mb-5">Kontakt</h3>
+        <div class="row gx-lg-5 justify-content-around ms-lg-5 me-lg-5">
+            <div class="col-xl-5 col-md-6 col-12">
+                <h1 class="kontaktoverskrift mb-4 d-inline">Kontakt<img src="../img/kontaktwhite.svg" class="d-inline-block kontaktimg" alt=""></h1>
+                <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
                     <label for="name">Navn</label>
                     <br>
                     <input type="text" name="name" id="name" style="width: 100%;" required>
-                </div>
-                <div class="col-6 mt-4">
-                </div>
-                <div class="col-6 mt-4 column-gap">
                     <label for="email">Email</label>
                     <br>
                     <input type="email" name="email" id="email" style="width: 100%;" required>
-                </div>
-                <div class="col-6 mt-4">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-6 mt-4 column-gap">
                     <label for="message">Besked</label>
                     <br>
                     <textarea name="message" id="message" style="width: 100%; height: 150px;" required></textarea>
-                </div>
-                <div class="col-6 mt-4">
-                </div>
-
-                <div class="col-12 mt-4 mb-5">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
+                    <button type="submit" class="btn btn-primary mt-4 mb-4 mobilebutton">Send</button>
+                </form>
+                <?php if (isset($success) && $success): ?>
+                    <p>Message sent successfully!</p>
+                <?php endif; ?>
             </div>
-        </form>
+            <div class="col-xl-7 col-md-6 col-12 align-self-end ps-lg-5">
+                <p class="kontakttext">Nielsen & Rønne A/S</p>
+                <p class="kontakttext">DK-4800 Nykøbing Falster, Slotsporten 6</p>
+                <p class="kontakttext">Email: nogr@nogr.dk</p>
+                <p class="kontakttext">Telefon: +45 5485 0999</p>
+                <p class="kontakttext">CVR-nr.: 16855871</p>
+            </div>
+            <div class="col-12 d-md-flex d-none">
+                <button type="submit" class="btn btn-primary mt-4">Send</button>
+            </div>
         </div>
-        <!-- Success message -->
-        <?php if (isset($success) && $success): ?>
-            <p>Message sent successfully!</p>
-        <?php endif; ?>
-    </section>
-</div>
+        
+    </div>
+</section>
 
 <?php include "includes/footer.php"; ?>
 

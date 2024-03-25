@@ -7,37 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/custom.css">
 </head>
 <body>
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-md-11 col-11">
-        Kraner
-Vi tilbyder salg, service og reparation, samt lovpligtige eftersyn af:
-
-- Traverskraner
-- Portalkraner
-- Svingkraner
-- Specialkraner
-- Kædedetaljer
-- Wiretaljer
-- Løftegrej
-
-Kontakt os gerne for et servicetilbud!
-        </div>
-        <div class="col-lg-4 d-lg-block d-none">
-            <img src="../img/kran1.svg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-2 col-md-1 col-1">
-            <img src="../img/logo+pumpe.png" class="img-fluid" alt="">
-        </div>
-    </div>
-</div>
 
 
 
